@@ -1,7 +1,5 @@
 
 import java.util.Scanner;
-
-import java.util.*;
 // package DATA STRUCTURES;
 
 class operations {
@@ -36,6 +34,8 @@ class operations {
     }
 
     void Display() {
+
+        
         System.out.println("Array Elements Are:");
 
         for (index = 0; index < size; index++) {
@@ -90,5 +90,9 @@ public class Dynamic_Array {
         } while (n1 == 5);
         System.out.println("Thank you");
 
+    }
+
+    private static void InsertAtPos(int num, int pos) {
+        throw new UnsupportedOperationException("Not supported yet.");
     }
 }
